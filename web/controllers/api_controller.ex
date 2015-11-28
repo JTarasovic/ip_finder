@@ -6,7 +6,6 @@ defmodule IpFinder.ApiController do
     |> Enum.into([], &(keyword_list_builder/1))
     |> sanitize_params
     |> IpFinder.Worker.get_ip
-    |> IO.inspect
 
     json conn, res
   end

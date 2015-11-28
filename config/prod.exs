@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :ip_finder, IpFinder.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [host: "localhost", port: 4000],
+  url: [host: "localhost", port: {:system, PORT}],
   server: true
 
 # Do not print debug messages in production

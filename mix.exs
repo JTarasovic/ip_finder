@@ -37,8 +37,7 @@ defmodule IpFinder.Mixfile do
       {:phoenix_html,         "~> 2.1"},
       {:phoenix_live_reload,  "~> 1.0", only: :dev},
       {:cowboy,               "~> 1.0"},
-      {:httpoison,            "~> 0.8.0"},
-      {:exrm,                 "~> 0.19.9"}
+      {:httpoison,            "~> 0.8.0"}
    ]
   end
 
